@@ -2,7 +2,7 @@ pandas
 numpy 
 seaborn
 imbalanced-learn
-scikit-learn
-flask
+Flask
+gunicorn
 -e .
 
