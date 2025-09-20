@@ -10,9 +10,9 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
-from sr.logger import logging
-from sr.exception import CustomException
-from sr.utils import save_object
+from src.logger import logging
+from src.exception import CustomException
+from src.utils import save_object
 
 @dataclass
 class DataTransformationConfig:

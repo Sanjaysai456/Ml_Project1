@@ -9,9 +9,9 @@ from imblearn.over_sampling import SMOTE
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, roc_auc_score
 
-from sr.exception import CustomException
-from sr.logger import logging
-from sr.utils import save_object
+from src.exception import CustomException
+from src.logger import logging
+from src.utils import save_object
 
 @dataclass
 class ModelTrainerConfig:
