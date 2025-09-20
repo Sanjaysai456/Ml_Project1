@@ -1,8 +1,6 @@
 pandas
-numpy 
-seaborn
+numpy
+scikit-learn
 imbalanced-learn
 Flask
 gunicorn
--e .
-
